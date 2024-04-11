@@ -1,6 +1,6 @@
 {
   "name": "@kurai-io/react-layout",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Basic react headless layout for faster building of custom applications",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
