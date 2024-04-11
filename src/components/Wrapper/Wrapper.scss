@@ -1,0 +1,148 @@
+div.layout-wrapper {
+  position: relative;
+  display: flex;
+
+  &.GCenter {
+    display: grid;
+    place-items: center;
+  }
+
+  &.FRowLeftTop {
+    flex-direction: row;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  &.FRowRightTop {
+    flex-direction: row;
+
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  &.FRowSpaceBetweenTop {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &.FRowSpaceBetweenCenter {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &.FRowSpaceBetweenBottom {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &.FRowCenterTop {
+    flex-direction: row;
+
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  &.FRowLeftCenter {
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &.FRowRightCenter {
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &.FRowCenter {
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  &.FRowLeftBottom {
+    flex-direction: row;
+
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+
+  &.FRowRightBottom {
+    flex-direction: row;
+
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  // Column
+
+  &.FColumnLeftTop {
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  &.FColumnRightTop {
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  &.FColumnCenterTop {
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &.FColumnLeftCenter {
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  &.FColumnRightCenter {
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  &.FColumnCenter {
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  &.FColumnLeftBottom {
+    flex-direction: column;
+
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  &.FColumnRightBottom {
+    flex-direction: column;
+
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  &.FColumnCenterBottom {
+    flex-direction: column;
+
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

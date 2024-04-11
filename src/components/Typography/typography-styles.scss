@@ -1,0 +1,76 @@
+span.layout-typography-text, span.layout-typography-caption, span.layout-typography-title {
+  position: relative;
+  display: block;
+
+  &.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+span.layout-typography-text {
+  font-size: 16px;
+
+  &.medium {
+    font-size: var(--kLayoutTypographyTextMediumTextSize);
+    opacity: var(--kLayoutTypographyTextMediumOpacity);
+    font-weight: var(--kLayoutTypographyTextMediumFontWeight);
+  }
+
+  &.small {
+    font-size: var(--kLayoutTypographyTextSmallTextSize);
+    opacity: var(--kLayoutTypographyTextSmallOpacity);
+    font-weight: var(--kLayoutTypographyTextSmallFontWeight);
+  }
+
+  &.large {
+    font-size: var(--kLayoutTypographyTextLargeTextSize);
+    opacity: var(--kLayoutTypographyTextLargeOpacity);
+    font-weight: var(--kLayoutTypographyTextLargeFontWeight);
+  }
+}
+
+span.layout-typography-caption {
+  font-size: 16px;
+
+  &.medium {
+    font-size: var(--kLayoutTypographyCaptionMediumTextSize);
+    opacity: var(--kLayoutTypographyCaptionMediumOpacity);
+    font-weight: var(--kLayoutTypographyCaptionMediumFontWeight);
+  }
+
+  &.small {
+    font-size: var(--kLayoutTypographyCaptionSmallTextSize);
+    opacity: var(--kLayoutTypographyCaptionSmallOpacity);
+    font-weight: var(--kLayoutTypographyCaptionSmallFontWeight);
+  }
+
+  &.large {
+    font-size: var(--kLayoutTypographyCaptionLargeTextSize);
+    opacity: var(--kLayoutTypographyCaptionLargeOpacity);
+    font-weight: var(--kLayoutTypographyCaptionLargeFontWeight);
+  }
+}
+
+h1.layout-typography-title, h2.layout-typography-title, h3.layout-typography-title {
+  font-size: 16px;
+
+  &.medium {
+    font-size: var(--kLayoutTypographyTitleMediumTextSize);
+    opacity: var(--kLayoutTypographyTitleMediumOpacity);
+    font-weight: var(--kLayoutTypographyTitleMediumFontWeight);
+  }
+
+  &.small {
+    font-size: var(--kLayoutTypographyTitleSmallTextSize);
+    opacity: var(--kLayoutTypographyTitleSmallOpacity);
+    font-weight: var(--kLayoutTypographyTitleSmallFontWeight);
+  }
+
+  &.large {
+    font-size: var(--kLayoutTypographyTitleLargeTextSize);
+    opacity: var(--kLayoutTypographyTitleLargeOpacity);
+    font-weight: var(--kLayoutTypographyTitleLargeFontWeight);
+  }
+}
