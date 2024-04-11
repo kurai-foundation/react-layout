@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: tsc
+        run: npm run build
 
       - name: Auto Increment Version
         id: version
