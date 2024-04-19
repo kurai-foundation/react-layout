@@ -39,8 +39,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/safeblock-dev/proto.git",
-    "directory": "token_monit"
+    "url": "git+https://github.com/safeblock-dev/proto.git"
   },
   "publishConfig": {
     "access": "public"
